@@ -74,6 +74,8 @@ With the `dns` filter applied, your packet list should look something like this:
 | Your computer | DNS server | Standard query — asking for example.com |
 | DNS server | Your computer | Standard query response — example.com is at 93.184.216.34 |
 
+<img src="https://github.com/Wisdom2008-star/Networking-Wireshack-Assignment-3-/blob/b48683dadd3caef8c29634ce04ffcd95f38dd620/Capturing%20DNS%20traffic.png">
+
 Everything else — web page loading, background app traffic, etc. — should be hidden from view. Only the question-and-answer pairs for DNS lookups show up.
 
 If you open the response packet's details and expand **Domain Name System → Answers**, you'll see the actual IP address it resolved to, along with how long that answer is valid for before it needs to be looked up again.
