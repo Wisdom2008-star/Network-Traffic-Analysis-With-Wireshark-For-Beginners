@@ -65,7 +65,7 @@ Two lines showing up together, like this:
 | Your computer | DNS server | "What's the IP address for example.com?" |
 | DNS server | Your computer | "It's 93.184.216.34" |
 
-<img src="">
+<img src="https://github.com/Wisdom2008-star/Networking-Wireshack-Assignment-3-/blob/469305a56f80718b74d56737c4164ce8229db818/Screenshot%202026-09-06%20222458.png">
 
 That's it — one packet asking the question, one packet answering it.
 
