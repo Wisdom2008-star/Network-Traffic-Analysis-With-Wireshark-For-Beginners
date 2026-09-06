@@ -69,8 +69,6 @@ Two lines showing up together, like this:
 
 That's it — one packet asking the question, one packet answering it.
 
-<img src="https://github.com/Wisdom2008-star/Networking-Wireshack-Assignment-3-/blob/f90d3b5fc4bc735b694e6b757d1d9027c4491482/Screenshot%202026-09-06%20230157.png">
-
 If you click on the answer packet, you can open it up and see the actual IP address it found, plus how long your computer is allowed to remember that answer before asking again.
 
 ## If you don't see anything
