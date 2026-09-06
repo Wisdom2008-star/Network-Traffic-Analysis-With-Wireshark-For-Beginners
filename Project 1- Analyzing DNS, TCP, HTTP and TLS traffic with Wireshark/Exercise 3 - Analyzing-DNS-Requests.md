@@ -32,9 +32,12 @@ You'll see:
 - **Name** — the website it's asking about
 - **Type** — usually just "A", which means it wants an IP address
 
+
 ### 3. Find the matching answer packet
 
 Right after the question, there should be an answer packet coming back. Click it, then open **Domain Name System (response)**.
+
+<img src="https://github.com/Wisdom2008-star/Networking-Wireshack-Assignment-3-/blob/f90d3b5fc4bc735b694e6b757d1d9027c4491482/Screenshot%202026-09-06%20230157.png">
 
 You'll see:
 - **Answer** — the actual IP address it found
