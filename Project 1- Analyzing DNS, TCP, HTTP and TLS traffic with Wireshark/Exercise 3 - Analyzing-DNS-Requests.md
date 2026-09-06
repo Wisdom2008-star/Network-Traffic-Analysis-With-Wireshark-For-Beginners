@@ -32,6 +32,8 @@ You'll see:
 - **Name** — the website it's asking about
 - **Type** — usually just "A", which means it wants an IP address
 
+<img width="964" height="478" alt="Screenshot 2026-09-06 233035" src="https://github.com/user-attachments/assets/304fc916-c7fb-4283-9398-10700c289fbd" />
+
 
 ### 3. Find the matching answer packet
 
