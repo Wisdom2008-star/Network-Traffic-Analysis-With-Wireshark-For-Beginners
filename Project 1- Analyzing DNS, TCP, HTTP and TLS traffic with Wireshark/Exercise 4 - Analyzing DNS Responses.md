@@ -50,6 +50,8 @@ dns.flags.response == 1
 
 Pick one where the DNS server is the source (sending back to your computer). In the details pane, expand **Domain Name System (response)**.
 
+<img width="964" height="478" alt="Screenshot 2026-09-06 235724" src="https://github.com/user-attachments/assets/07915feb-c1fc-4083-8792-be7969e865d3" />
+
 ### 4. Check the reply code first
 
 Open the **Flags** section inside it. Look at **Reply code** — this tells you right away if the lookup worked:
@@ -57,6 +59,8 @@ Open the **Flags** section inside it. Look at **Reply code** — this tells you 
 - "No error" means it succeeded
 - "Name Error" means the website doesn't exist
 - Anything else means something else went wrong
+
+<img width="964" height="478" alt="Screenshot 2026-09-06 235813" src="https://github.com/user-attachments/assets/3f7ebaa8-c010-4dfd-81f2-07484e6bd9eb" />
 
 ### 5. Open the Answers section
 
@@ -66,6 +70,7 @@ This is the actual result. You'll see:
 - **Type** — A (IPv4 address) or AAAA (IPv6 address)
 - **Address** — the actual IP address
 - **Time to live** — how long this answer is good for, in seconds, before it needs to be looked up again
+<img width="964" height="478" alt="Screenshot 2026-09-06 235842" src="https://github.com/user-attachments/assets/3680ea64-383c-48bc-9196-188d22bce5cd" />
 
 ### 6. Compare a few responses
 
