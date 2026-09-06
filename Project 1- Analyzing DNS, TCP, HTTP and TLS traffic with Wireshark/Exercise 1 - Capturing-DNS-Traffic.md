@@ -65,6 +65,8 @@ Two lines showing up together, like this:
 | Your computer | DNS server | "What's the IP address for example.com?" |
 | DNS server | Your computer | "It's 93.184.216.34" |
 
+<img src="https://github.com/Wisdom2008-star/Networking-Wireshack-Assignment-3-/blob/b48683dadd3caef8c29634ce04ffcd95f38dd620/Capturing%20DNS%20traffic.png">
+
 That's it — one packet asking the question, one packet answering it.
 
 If you click on the answer packet, you can open it up and see the actual IP address it found, plus how long your computer is allowed to remember that answer before asking again.
