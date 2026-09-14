@@ -39,14 +39,21 @@ Instead of clicking into just one question and answer, scroll through the full l
 
 Pick one hostname from the list. Find:
 - Its question packet
+
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Examining%20DNS%20traffic.png">
+
 - Its answer packet
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Examining%20DNS%20traffic%20(2).png">
+  
 - The actual IP address it got back
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Examining%20DNS%20traffic%20(3).png">
 
 Then think about what happens next: that IP address is what your computer uses to actually connect to the website, right after this.
 
 ### 5. Check the timing
 
 Look at the **Time** column for your DNS packets. Notice how fast the answer usually comes back after the question — this is normally a fraction of a second unless something's wrong with the network.
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Examining%20DNS%20traffic%20(4).png">
 
 ### 6. Spot anything unusual
 
