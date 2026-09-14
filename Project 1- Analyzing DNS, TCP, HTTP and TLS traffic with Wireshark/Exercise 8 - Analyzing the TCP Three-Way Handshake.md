@@ -49,6 +49,12 @@ Open the **Transmission Control Protocol** section in the details pane for each 
 - **Flags** — confirms which stage this is (SYN, SYN-ACK, or ACK)
 - **Sequence number** — a number each side uses to keep track of the data
 - **Acknowledgment number** — confirms what's been received so far
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/analysing%20the%20TCP%203%20way%20handshake.png">
+
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/analysing%20the%20TCP%203%20way%20handshake%20(2).png">
+
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/analysing%20the%20TCP%203%20way%20handshake%20(3).png">
+
 
 ### 5. See how the numbers connect
 
