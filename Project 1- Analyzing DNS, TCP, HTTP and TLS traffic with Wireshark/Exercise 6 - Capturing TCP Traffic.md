@@ -47,6 +47,7 @@ Click the red square button once you've seen some TCP packets show up.
 `File → Save As`, and save it into your `captures/` folder.
 
 ## What you should see
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Capturing%20TCP%20traffic.png">
 
 A long list of packets, all showing **TCP** in the Protocol column. Every bit of data going back and forth between your computer and a website counts as TCP traffic, so this list fills up fast compared to DNS.
 
