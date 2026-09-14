@@ -26,6 +26,8 @@ Use a saved capture, or start a fresh one and browse to a website.
 
 Pick one of the handshakes you found in Exercise 8 — note the IP address and port number involved (e.g. port 34076 talking to 172.217.22.46).
 
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/analysing%20TCP%20connection.png">
+
 ### 3. Follow just that one connection
 
 Right-click any packet from that handshake and choose **Follow → TCP Stream**. This opens a clean window showing only that one conversation, in order.
