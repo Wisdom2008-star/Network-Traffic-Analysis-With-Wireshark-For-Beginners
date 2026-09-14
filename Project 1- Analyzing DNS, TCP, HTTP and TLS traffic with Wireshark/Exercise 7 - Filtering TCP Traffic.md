@@ -29,6 +29,7 @@ Type this in the filter bar and hit Enter:
 ```
 tcp
 ```
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Filtering%20TCP%20traffic.png">
 
 ### 3. Narrow it down further
 
@@ -53,6 +54,8 @@ tcp
 ### 4. Try "Follow TCP Stream"
 
 Right-click any TCP packet and choose **Follow → TCP Stream**. This opens a new window showing just that one conversation from start to finish, which is often easier to read than scrolling the packet list.
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Filtering%20TCP%20traffic%20(3).png">
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Filtering%20TCP%20traffic%20(2).png">
 
 ### 5. Save your filtered view (optional)
 
