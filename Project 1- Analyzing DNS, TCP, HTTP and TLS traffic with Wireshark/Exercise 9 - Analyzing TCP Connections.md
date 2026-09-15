@@ -34,6 +34,8 @@ Right-click any packet from that handshake and choose **Follow → TCP Stream**.
 
 Close that window when done, and you'll notice Wireshark has automatically applied a filter for you in the main window — something like `tcp.stream eq 5`. That's another easy way to isolate one connection.
 
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/analysing%20TCP%20connection%20(2).png">
+
 ### 4. Watch the connection grow
 
 Scroll through the filtered packets and notice:
@@ -49,6 +51,8 @@ Keep scrolling to the end of that same conversation. Look for:
 - **[FIN, ACK]** — one side saying "I'm done sending"
 - A matching **[ACK]** back
 - Sometimes a second **[FIN, ACK]** the other direction, since either side can end its part separately
+
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/analysing%20TCP%20connection%20(3).png">
 
 If a connection instead ends with a **[RST]** packet, that means it was cut off abruptly rather than closed politely — often due to an error or a server refusing something.
 
