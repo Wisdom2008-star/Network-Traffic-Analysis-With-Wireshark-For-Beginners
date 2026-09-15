@@ -25,10 +25,12 @@ Use a saved capture, or start a fresh one and browse to a website.
 ### 2. Pick a TCP packet to follow
 
 Click on any packet that's part of a TCP connection you want to look at.
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream.png">
 
 ### 3. Open Follow TCP Stream
 
 Right-click the packet and choose **Follow → TCP Stream**. A new window opens showing that whole conversation by itself.
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream%20(3).png">
 
 ### 4. Read the colors
 
@@ -36,6 +38,7 @@ Inside the stream window, the two sides of the conversation are shown in differe
 
 - One color is everything your computer sent
 - The other color is everything the server sent back
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream%20(4).png">
 
 This makes it easy to tell who said what without digging through individual packets.
 
@@ -44,8 +47,13 @@ This makes it easy to tell who said what without digging through individual pack
 Near the bottom of the window, there's a dropdown (usually says something like "ASCII"). Try switching between:
 
 - **ASCII** — readable text, if the traffic isn't encrypted
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream%20(4).png">
+
 - **Hex Dump** — the raw bytes, useful when the data isn't plain text
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream%20(5).png">
+
 - **C Arrays** — rarely needed, mostly used for programming purposes
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream%20(6).png">
 
 If the connection was encrypted (like TLS), you'll mostly see scrambled, unreadable characters instead of plain text — that's expected and actually a good sign the encryption is working.
 
@@ -56,6 +64,7 @@ Close the stream window. Back in the main packet list, Wireshark will have appli
 ```
 tcp.stream eq 3
 ```
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Following%20a%20TCP%20stream%20(7).png">
 
 This is the same conversation, just shown in the normal packet list instead of the popup window.
 
