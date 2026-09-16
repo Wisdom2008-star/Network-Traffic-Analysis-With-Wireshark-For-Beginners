@@ -50,6 +50,8 @@ Click the red square button once you've seen some HTTP packets show up.
 
 A short list of packets showing **HTTP** in the Protocol column, usually with Info like:
 
+<img src="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Capturing%20HTTP%20traffic.png">
+
 | Info |
 |---|
 | GET / HTTP/1.1 |
