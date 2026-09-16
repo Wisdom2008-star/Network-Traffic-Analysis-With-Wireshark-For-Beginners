@@ -22,6 +22,8 @@ This guide is about opening up an HTTP request packet and understanding what's i
 
 Use a saved capture, or start a fresh one and visit a plain HTTP site (like `http://neverssl.com`).
 
+<IMG SRC="https://github.com/Wisdom2008-star/Network-Traffic-Analysis-With-Wireshark-For-Beginners/blob/main/Screenshots/Capturing%20HTTP%20traffic.png">
+
 ### 2. Filter for requests only
 
 Type this in the filter bar and hit Enter:
